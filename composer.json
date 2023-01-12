@@ -26,15 +26,13 @@
 
 
     "require": {
-        "php": "~7.1",
-
+        "php": "~8.1",
         "dragonmantank/cron-expression": "~1.0"
     },
 
     "require-dev": {
         "codeception/codeception": "~4.0",
         "codeception/module-asserts": "~1.0",
-
         "squizlabs/php_codesniffer": "~3.4"
     },
 
