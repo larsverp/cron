@@ -47,6 +47,10 @@ class Job implements JobInterface
 
     public function isDue(DateTime $datetime = null) : bool
     {
+        if (!$datetime) {
+            $datetime = new DateTime();
+        }
+
         $cronExpression = CronExpression::factory(
             $this->getExpression()
         );
