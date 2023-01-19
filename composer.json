@@ -1,5 +1,5 @@
 {
-    "name":        "sidroberts/cron",
+    "name":        "larsverp/cron",
     "description": "Cron manager.",
     "type":        "library",
     "license":     "MIT",
