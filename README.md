@@ -15,7 +15,7 @@ A framework agnostic Cron manager.
 ## Installation
 
 ```bash
-composer require sidroberts/cron
+composer require larsverp/cron
 ```
 
 
